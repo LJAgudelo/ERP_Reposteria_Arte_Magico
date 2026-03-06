@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+
+@layer base {
+    :root {
+        --createdGreen: #4b2b2c;
+        --createdLetter: #f2efe3;
+        --createdPastel: #f8c8d0;
+        --createdmenta: #b3dfcc;
+
+    }
+}
+
+.cookie-regular {
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
