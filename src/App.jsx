@@ -1,5 +1,8 @@
 
-import Entrada from "./assets/pages/Entrada.jsx"
+import Empleados from "./assets/pages/Empleados.jsx"
+
+
+
 
 
 
@@ -8,7 +11,7 @@ function App() {
 
   return (
     <>
-    <Entrada />
+    <Empleados />
 
   
     </>

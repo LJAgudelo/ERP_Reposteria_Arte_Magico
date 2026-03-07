@@ -13,7 +13,7 @@ const InventarioEntrada = () => {
                 required
               />
               <label
-                for="floating_first_name"
+                htmlFor="floating_first_name"
                 className="absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
               >
                 Fecha Ingreso
@@ -27,7 +27,7 @@ const InventarioEntrada = () => {
                 required
               />
               <label
-                for="floating_first_name"
+                htmlFor="floating_first_name"
                 className="absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
               >
                 Numero Factura
@@ -41,7 +41,7 @@ const InventarioEntrada = () => {
                 required
               />
               <label
-                for="floating_first_name"
+                htmlFor="floating_first_name"
                 className="absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
               >
                 Proveedor
@@ -57,7 +57,7 @@ const InventarioEntrada = () => {
                 required
               />
               <label
-                for="floating_first_name"
+                htmlFor="floating_first_name"
                 className="absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
               >
                 Código Producto
@@ -71,7 +71,7 @@ const InventarioEntrada = () => {
                 required
               />
               <label
-                for="floating_first_name"
+                htmlFor="floating_first_name"
                 className="absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
               >
                 Nombre
@@ -92,7 +92,7 @@ const InventarioEntrada = () => {
               </select>
 
               <label
-                for="floating_first_name"
+                htmlFor="floating_first_name"
                 className="absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
               >
                 Unidad Medida
@@ -108,7 +108,7 @@ const InventarioEntrada = () => {
                 required
               />
               <label
-                for="floating_first_name"
+                htmlFor="floating_first_name"
                 className="absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
               >
                 Costo total
@@ -124,7 +124,7 @@ const InventarioEntrada = () => {
                 required
               />
               <label
-                for="floating_first_name"
+                htmlFor="floating_first_name"
                 className="absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
               >
                 Costo unitario
@@ -140,7 +140,7 @@ const InventarioEntrada = () => {
                 required
               />
               <label
-                for="floating_first_name"
+                htmlFor="floating_first_name"
                 className="absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
               >
                 Cantidad
@@ -155,7 +155,7 @@ const InventarioEntrada = () => {
                 required
               />
               <label
-                for="floating_first_name"
+                htmlFor="floating_first_name"
                 className="absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
               >
                 Vencimiento
@@ -171,7 +171,7 @@ const InventarioEntrada = () => {
                 required
               />
               <label
-                for="floating_first_name"
+                htmlFor="floating_first_name"
                 className="absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
               >
                 Marca
@@ -187,7 +187,7 @@ const InventarioEntrada = () => {
                 required
               />
               <label
-                for="floating_first_name"
+                htmlFor="floating_first_name"
                 className="absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
               >
                 Lote
