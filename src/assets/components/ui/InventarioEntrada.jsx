@@ -7,6 +7,48 @@ const InventarioEntrada = () => {
           <div className="grid md:grid-cols-3 md:gap-6">
             <div className="relative py-4  z-0 w-full mb-5 group">
               <input
+                type="date"
+                className="block py-2 px-0 w-full text-sm text-heading bg-transparent border-0 border-b-2 border-default-medium appearance-none focus:outline-none focus:ring-0 focus:border-brand peer"
+                placeholder=" "
+                required
+              />
+              <label
+                for="floating_first_name"
+                className="absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+              >
+                Fecha Ingreso
+              </label>
+            </div>
+            <div className="relative py-4  z-0 w-full mb-5 group">
+              <input
+                type="text"
+                className="block py-2 px-0 w-full text-sm text-heading bg-transparent border-0 border-b-2 border-default-medium appearance-none focus:outline-none focus:ring-0 focus:border-brand peer"
+                placeholder=" "
+                required
+              />
+              <label
+                for="floating_first_name"
+                className="absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+              >
+                Numero Factura
+              </label>
+            </div>
+                        <div className="relative py-4  z-0 w-full mb-5 group">
+              <input
+                type="text"
+                className="block py-2 px-0 w-full text-sm text-heading bg-transparent border-0 border-b-2 border-default-medium appearance-none focus:outline-none focus:ring-0 focus:border-brand peer"
+                placeholder=" "
+                required
+              />
+              <label
+                for="floating_first_name"
+                className="absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+              >
+                Proveedor
+              </label>
+            </div>
+            <div className="relative py-4  z-0 w-full mb-5 group">
+              <input
                 type="number"
                 min="1"
                 step="1"
@@ -18,7 +60,7 @@ const InventarioEntrada = () => {
                 for="floating_first_name"
                 className="absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
               >
-                Código
+                Código Producto
               </label>
             </div>
             <div className="relative py-4  z-0 w-full mb-5 group">
@@ -35,7 +77,6 @@ const InventarioEntrada = () => {
                 Nombre
               </label>
             </div>
-
             <div className="relative z-0 w-full mb-5 group">
               <select
                 className="block py-4 px-0 w-full text-sm text-heading bg-transparent border-0 border-b-2 border-default-medium appearance-none focus:outline-none focus:ring-0 focus:border-brand peer"
@@ -54,7 +95,7 @@ const InventarioEntrada = () => {
                 for="floating_first_name"
                 className="absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
               >
-                Unidad de medida
+                Unidad Medida
               </label>
             </div>
             <div className="relative py-4  z-0 w-full mb-5 group">
@@ -133,7 +174,7 @@ const InventarioEntrada = () => {
                 for="floating_first_name"
                 className="absolute text-sm text-body duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-fg-brand peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
               >
-                Proveedor
+                Marca
               </label>
             </div>
             <div className="relative py-4  z-0 w-full mb-5 group">

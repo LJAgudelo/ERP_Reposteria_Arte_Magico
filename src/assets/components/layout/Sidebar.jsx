@@ -31,6 +31,14 @@ const Sidebar = () => {
                 <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]"> Entrada Mercancia</span>
               </Link>
             </li>
+                                    <li>
+              <Link
+                to="/"
+                className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdGreen)] "
+              >
+                <MdPeopleAlt className="text-[var(--createdLetter)]" />
+                <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]"> Mano de obra</span>
+              </Link>
             <li>
               <Link
                 to="/"
@@ -50,14 +58,7 @@ const Sidebar = () => {
                 <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]"> Recetas</span>
               </Link>
             </li>
-                        <li>
-              <Link
-                to="/"
-                className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdGreen)] "
-              >
-                <MdPeopleAlt className="text-[var(--createdLetter)]" />
-                <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]"> Mano de obra</span>
-              </Link>
+
             </li>
                         <li>
               <Link
