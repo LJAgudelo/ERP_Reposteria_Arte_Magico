@@ -18,13 +18,13 @@ const Sidebar = () => {
           <ul className="space-y-1 font-medium">
             <li>
               <Link to="/" className="flex items-center p-1  rounded-lg  ">
-                <img src={logo} alt="Logo" className="w-40 rounded-sm" />
+                <img src={logo} alt="Logo" className="w-45 rounded-sm" />
               </Link>
             </li>
             <li>
               <Link
                 to="/"
-                className="flex items-center p-2 rounded-lg dark:text-black hover:bg-green-700 ">
+                className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)]">
                 <MdOutlineInventory className="text-[var(--createdLetter)]" />
                 <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]">
                                Entrada Mercancia
@@ -34,7 +34,7 @@ const Sidebar = () => {
             <li>
               <Link
                 to="/"
-                className="flex items-center p-2 rounded-lg dark:text-black hover:bg-green-700 "
+                className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
               >
                 <BsPersonWorkspace className="text-[var(--createdLetter)]" />
                 <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]">
@@ -46,7 +46,7 @@ const Sidebar = () => {
               <li>
               <Link
                 to="/"
-                className="flex items-center p-2 rounded-lg dark:text-black hover:bg-green-700 "
+                className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
               >
                 <MdPeopleAlt className="text-[var(--createdLetter)]" />
                 <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]">
@@ -58,7 +58,7 @@ const Sidebar = () => {
               <li>
                 <Link
                   to="/"
-                  className="flex items-center p-2 rounded-lg dark:text-black hover:bg-green-700 "
+                  className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
                 >
                   <MdOutlineInventory2 className="text-[var(--createdLetter)]" />
                   <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]">
@@ -71,7 +71,7 @@ const Sidebar = () => {
               <li>
                 <Link
                   to="/"
-                  className="flex items-center p-2 rounded-lg dark:text-black hover:bg-green-700 "
+                  className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
                 >
                   <TbCooker className="text-[var(--createdLetter)]" />
                   <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]">
@@ -84,7 +84,7 @@ const Sidebar = () => {
             <li>
               <Link
                 to="/"
-                className="flex items-center p-2 rounded-lg dark:text-black hover:bg-green-700 "
+                className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
               >
                 <GrMoney className="text-[var(--createdLetter)]" />
                 <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]">
@@ -109,7 +109,7 @@ const Sidebar = () => {
             <li>
               <Link
                 to="/"
-                className="flex items-center p-2 rounded-lg dark:text-black hover:bg-green-700 "
+                className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
               >
                 <MdOutlineSell className="text-[var(--createdLetter)]" />
                 <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]">
@@ -121,7 +121,7 @@ const Sidebar = () => {
             <li>
               <Link
                 to="/"
-                className="flex items-center p-2 rounded-lg dark:text-black hover:bg-green-700 "
+                className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
               >
                 <MdPriceCheck className="text-[var(--createdLetter)]" />
                 <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]">
@@ -133,7 +133,7 @@ const Sidebar = () => {
             <li>
               <Link
                 to="/"
-                className="flex items-center p-2 rounded-lg dark:text-black hover:bg-green-700 "
+                className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
               >
                 <MdLogout className="text-[var(--createdLetter)]" />
                 <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]">

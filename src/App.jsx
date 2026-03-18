@@ -1,9 +1,4 @@
-
-import Empleados from "./assets/pages/Empleados.jsx"
-
-
-
-
+import ControlPersonal from "./assets/pages/ControlPersonal"
 
 
 function App() {
@@ -11,7 +6,7 @@ function App() {
 
   return (
     <>
-    <Empleados />
+<ControlPersonal />
 
   
     </>
