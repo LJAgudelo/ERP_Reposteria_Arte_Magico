@@ -36,7 +36,7 @@ const Clock = () => {
     day: "numeric",
   });
   return (
-    <div className="text-center flex flex-col text-4xl font-bold">
+    <div className="text-center flex flex-col text-4xl font-bold gap-3">
         <p>{greeting}</p>
         <p className="text-base font-normal">{formattedDate}</p>
       <p>{formattedTime}</p>

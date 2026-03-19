@@ -51,7 +51,7 @@ const Sidebar = () => {
                 <MdPeopleAlt className="text-[var(--createdLetter)]" />
                 <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]">
              
-                  Mano de obra
+                  Control de personal
                 </span>
               </Link>
               </li>

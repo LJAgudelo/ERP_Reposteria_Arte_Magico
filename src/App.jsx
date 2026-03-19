@@ -1,4 +1,5 @@
-import ControlPersonal from "./assets/pages/ControlPersonal"
+
+import CostosIndirectos from "./assets/pages/CostosIndirectos"
 
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <>
-<ControlPersonal />
+<CostosIndirectos />
 
   
     </>
