@@ -1,5 +1,6 @@
 
-import CostosIndirectos from "./assets/pages/CostosIndirectos"
+import Cotizacion from "./assets/pages/Cotizacion.jsx"
+
 
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
 
   return (
     <>
-<CostosIndirectos />
+<Cotizacion
+ />
 
   
     </>

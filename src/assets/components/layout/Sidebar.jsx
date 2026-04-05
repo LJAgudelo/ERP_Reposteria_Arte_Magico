@@ -68,18 +68,7 @@ const Sidebar = () => {
                 </Link>
               </li>
 
-              <li>
-                <Link
-                  to="/"
-                  className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
-                >
-                  <TbCooker className="text-[var(--createdLetter)]" />
-                  <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]">
-               
-                    Recetas
-                  </span>
-                </Link>
-              </li>
+              
           
             <li>
               <Link
@@ -93,19 +82,30 @@ const Sidebar = () => {
                 </span>
               </Link>
             </li>
-            <li>
+             <li>
               <Link
                 to="/"
-                className="flex items-center p-2 rounded-lg dark:text-black over:bg-green-700 "
+                className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
               >
-                <BsFillClipboardDataFill className="text-[var(--createdLetter)]" />
+                <MdPriceCheck className="text-[var(--createdLetter)]" />
                 <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]">
              
-                  tablero
+                  Cotización
                 </span>
               </Link>
             </li>
-
+<li>
+                <Link
+                  to="/"
+                  className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
+                >
+                  <TbCooker className="text-[var(--createdLetter)]" />
+                  <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]">
+               
+                    Recetas
+                  </span>
+                </Link>
+              </li>
             <li>
               <Link
                 to="/"
@@ -118,15 +118,16 @@ const Sidebar = () => {
                 </span>
               </Link>
             </li>
+           
             <li>
               <Link
                 to="/"
-                className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
+                className="flex items-center p-2 rounded-lg dark:text-black over:bg-green-700 "
               >
-                <MdPriceCheck className="text-[var(--createdLetter)]" />
+                <BsFillClipboardDataFill className="text-[var(--createdLetter)]" />
                 <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]">
              
-                  Cotización
+                  tablero
                 </span>
               </Link>
             </li>
