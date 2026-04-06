@@ -216,14 +216,32 @@ const FormRecetas = () => {
         </div>
 
         {/* BOTÓN */}
-        <div className="flex justify-center mt-6">
+        <div className="flex justify-center mt-6 gap-4">
           <button type="submit"
           className="text-[var(--createdGreen)] bg-[var(--createdmenta)] font-medium rounded-lg text-sm px-8 py-3 
     shadow-md transition-all duration-300
     hover:shadow-xl hover:scale-105
     active:scale-90 active:animate-pulse">
-            Guardar Receta
+            Limpiar
           </button>
+          <button
+          type="submit"
+          className="text-[var(--createdGreen)] bg-[var(--createdmenta)] font-medium rounded-lg text-sm px-8 py-3 
+    shadow-md transition-all duration-300
+    hover:shadow-xl hover:scale-105
+    active:scale-90 active:animate-pulse"
+        >
+          Guardar
+        </button>
+        <button
+          type="submit"
+          className="text-[var(--createdGreen)] bg-[var(--createdmenta)] font-medium rounded-lg text-sm px-8 py-3 
+    shadow-md transition-all duration-300
+    hover:shadow-xl hover:scale-105
+    active:scale-90 active:animate-pulse"
+        >
+          Vender
+        </button>
         </div>
 
       </form>

@@ -1,5 +1,6 @@
+import Ventas from "./assets/pages/Ventas.jsx"
 
-import Cotizacion from "./assets/pages/Cotizacion.jsx"
+
 
 
 
@@ -8,10 +9,7 @@ function App() {
 
   return (
     <>
-<Cotizacion
- />
-
-  
+<Ventas />  
     </>
   )
 }
