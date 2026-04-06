@@ -23,7 +23,7 @@ const Sidebar = () => {
             </li>
             <li>
               <Link
-                to="/"
+                to="/entrada"
                 className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)]">
                 <MdOutlineInventory className="text-[var(--createdLetter)]" />
                 <span className="flex-1 ms-3 whitespace-nowrap text-[var(--createdLetter)]">
@@ -33,7 +33,7 @@ const Sidebar = () => {
             </li>
             <li>
               <Link
-                to="/"
+                to="/empleados"
                 className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
               >
                 <BsPersonWorkspace className="text-[var(--createdLetter)]" />
@@ -45,7 +45,7 @@ const Sidebar = () => {
               </li>
               <li>
               <Link
-                to="/"
+                to="/controlpersonal"
                 className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
               >
                 <MdPeopleAlt className="text-[var(--createdLetter)]" />
@@ -57,7 +57,7 @@ const Sidebar = () => {
               </li>
               <li>
                 <Link
-                  to="/"
+                  to="/saldos"
                   className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
                 >
                   <MdOutlineInventory2 className="text-[var(--createdLetter)]" />
@@ -72,7 +72,7 @@ const Sidebar = () => {
           
             <li>
               <Link
-                to="/"
+                to="/costosindirectos"
                 className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
               >
                 <GrMoney className="text-[var(--createdLetter)]" />
@@ -84,7 +84,7 @@ const Sidebar = () => {
             </li>
              <li>
               <Link
-                to="/"
+                to="/cotizacion"
                 className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
               >
                 <MdPriceCheck className="text-[var(--createdLetter)]" />
@@ -96,7 +96,7 @@ const Sidebar = () => {
             </li>
 <li>
                 <Link
-                  to="/"
+                  to="/recetas"
                   className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
                 >
                   <TbCooker className="text-[var(--createdLetter)]" />
@@ -108,7 +108,7 @@ const Sidebar = () => {
               </li>
             <li>
               <Link
-                to="/"
+                to="/ventas"
                 className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
               >
                 <MdOutlineSell className="text-[var(--createdLetter)]" />
@@ -121,7 +121,7 @@ const Sidebar = () => {
            
             <li>
               <Link
-                to="/"
+                to="/tablero"
                 className="flex items-center p-2 rounded-lg dark:text-black over:bg-green-700 "
               >
                 <BsFillClipboardDataFill className="text-[var(--createdLetter)]" />
@@ -133,7 +133,7 @@ const Sidebar = () => {
             </li>
             <li>
               <Link
-                to="/"
+                to="/salir"
                 className="flex items-center p-2 rounded-lg dark:text-black hover:bg-[var(--createdcoffe)] "
               >
                 <MdLogout className="text-[var(--createdLetter)]" />
