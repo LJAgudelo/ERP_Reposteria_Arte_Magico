@@ -4,7 +4,7 @@ import Header from '../components/layout/Header'
 import InventarioEntrada from '../components/ui/InventarioEntrada'
 import FormCif from '../components/ui/FormCif'
 
-const CostosIndirectos = () => {
+const Egresos = () => {
   return (
         <>
       <div className="flex min-h-screen bg-gray-50">
@@ -23,4 +23,4 @@ const CostosIndirectos = () => {
   )
 }
 
-export default CostosIndirectos
+export default Egresos
