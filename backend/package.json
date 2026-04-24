@@ -2,9 +2,9 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",  /* para ejecutar el servidor con npm run */
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js", /* agregar un script para ejecutar el servidor con nodemon */
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +14,7 @@
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
+    "express": "^5.2.1",
     "expresss": "^0.0.0",
     "pg": "^8.20.0"
   },
