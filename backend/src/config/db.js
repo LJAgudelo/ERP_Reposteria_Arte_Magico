@@ -1,11 +1,12 @@
 const {Pool} = require("pg"); //pool gestor de conexiones
-reqire ("dotenv").config();
+require ("dotenv").config();
 
 
-export const pool = new Pool({
-    user: proccess.env.DB_USER,
-    host: proccess.env.DB_HOST,
-    database: proccess.env.DB_NAME,
-    password: proccess.env.DB_PASSWORD,
-    port: proccess.env.DB_PORT,
+const pool = new Pool({
+    user: process.env.DB_USER,
+    host: process.env.DB_HOST,
+    database: process.env.DB_NAME,
+    password: process.env.DB_PASSWORD,
+    port: process.env.DB_PORT,
 })
+module.exports = pool;
