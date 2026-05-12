@@ -7,7 +7,7 @@ const app = express();
 // Middleware para configurar CORS y parsear JSON
 app.use(cors());
 app.use(express.json());
-
+app.use("/api", routes);
 
 // ruta
 app.get("/test-db", async (req, res) => {
