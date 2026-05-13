@@ -1,6 +1,7 @@
 const pool = require('../../config/db');
 
-const crearProveedor = async (proveedor) => {
+//solicitud post
+const crearProveedores = async (proveedor) => {
 
     const query= `INSERT INTO proveedores (nombre, numero_nit, direccion, telefono, correo, estado ) 
     VALUES ($1, $2, $3, $4, $5, $6 ) 
@@ -21,6 +22,20 @@ const crearProveedor = async (proveedor) => {
     return result.rows[0];
 }
 
+// solicitud get
+const obtenerProveedores = async ()=>{
+    const query = 
+    `SELECT * FROM proveedores
+    ORDER BY id DESC`;
+
+const result = await pool.query(query);
+return result.rows;
+
+
+}
+
 module.exports={
-    crearProveedor
+    crearProveedores,
+    obtenerProveedores
+
 }
